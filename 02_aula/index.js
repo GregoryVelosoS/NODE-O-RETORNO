@@ -4,9 +4,6 @@ const port = 5000;
 const path = require('path')
 const caminho = path.join(__dirname, 'pages')
 
-
-
-
 //TRABALHAR COM POST 
 app.get("/users/cadastrar", (req,res) =>{
   res.sendFile(`${caminho}/cadastro.html`)   
